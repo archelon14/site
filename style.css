@@ -7,11 +7,6 @@
     text-align: center;
 }
 
-.bod {
-    background-color: #fff;
-    float: left;
-}
-
 .menu .foot {
     width: 100%;
     text-align: center;
@@ -21,13 +16,12 @@
 .container {
     background-color: #fff;
     display: block;
-/*    flex-flow: row;*/
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     height: 100%;
 }
 
-/*This is the codecademy styling*/
+/* --- This is the codecademy styling --- */
 body {
     height: 100%;
     left: 0;
@@ -73,7 +67,7 @@ body {
 .icon-menu i {
   margin-right: 5px;
 }
-/*This completes the codecademy styling*/
+/* --- This completes the codecademy styling --- */
 
 p {
     font-size: 22px;
@@ -141,60 +135,7 @@ p {
     margin: 10px 0px 10px 10px;
 }
 
-svg {
-    margin-left: -14px;
-    margin-top: -23px;
-}
-
-.menu-icon2 {
-    margin-left: -14px;
-    margin-top: -20px;
-}
-
-.menu-icon3 {
-    margin-left: -14px;
-    margin-top: -20px;
-    
-}
-
-.menu-icon1 {
-    margin-left: -14px;
-    margin-top: -22px;
-
-}
-
-.svg-circle {
-    margin-left: -16px;
-    margin-top: -16px;    
-}
-.svg-circle1 {
-    margin-left: -16px;
-    margin-top: -16px;    
-    
-}
-
 .image {
     width: 300px;
     height: auto;
-    flex: 1;
-}
-
-.firstHalf {
-    width: 50%;
-/*    float: left;*/
-}
-
-.secondHalf {
-    width: 50%;
-    float: right;
-}
-
-
-
-.plus:hover {
-    cursor: pointer;
-}
-
-.minus:hover {
-    cursor: pointer;
 }
