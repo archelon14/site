@@ -1,0 +1,72 @@
+<html>
+<head>
+        <link type="text/css" rel="stylesheet" href="style.css" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sharing sheep</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="bod">
+                <div class="menu">
+                    <br/><br/>
+                    <ul>
+                        <li><a href="index.htm">home</a></li>
+                        <li><a href="#">art</a></li>
+                        <li><a href="video.htm">videos</a></li>
+                        <li><a href="Content/KevinTannerResume.pdf">resume</a></li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">twit</a>
+                        <a href="#">pin</a>
+                        <a href="#">inst</a>
+                    </div>
+                </div>
+                <div class="itm">
+                    <div class="plus">
+                        <svg style="margin-left: -10px; margin-top: -10px;" height="20px" width="20px">
+                            <polygon points="18,8 12,8 12,2 8,2 8,8 2,8 2,12 8,12 8,18 12,18 12,12 18,12" style="fill: #42c3ea;" />
+                        </svg>
+                    </div>
+                    <div class="minus">
+                        <svg style="margin-left: -10px; margin-top: -6px;" height="16px" width="20px">
+                            <polygon points="20,4 6,4 4,4 -6,4 -6,8 8,8 20,8" style="fill: #42c3ea;" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="media">
+                <!-- FWF Josiah -->
+                <div class="image">
+                    <iframe src="//fast.wistia.net/embed/iframe/2dg7brz3c5" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="300" height="177"></iframe>
+                    <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+                </div>
+                <!-- Cats Short -->
+                <div class="videoContent">
+                    <iframe src="//fast.wistia.net/embed/iframe/0sv2u6aby8" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="300" height="177"></iframe>
+                </div>
+                <!-- Andrew Short -->
+                <div class="videoContent">
+                    <iframe src="//fast.wistia.net/embed/iframe/ijgyna8izo" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="300" height="177"></iframe>
+                </div>
+                <!-- FWF Teaser -->
+                <div class="videoContent">
+                    <iframe src="//fast.wistia.net/embed/iframe/rx9oybba62" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="300" height="177"></iframe>
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="graphics.js"></script>
+    
+    <!-- Wistia Dim The Lights Feature -->
+    <script src="//fast.wistia.com/assets/external/embed_shepherd-v1.js"></script>
+    <script>
+        wistiaEmbeds.onFind(function(video) {
+          video.addPlugin("dimTheLights", {
+            src: "//fast.wistia.com/labs/dim-the-lights/plugin.js",
+            outsideIframe: true
+          });
+        });
+    </script>
+</html>

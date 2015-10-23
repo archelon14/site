@@ -1,0 +1,200 @@
+
+.head {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.bod {
+    background-color: #fff;
+    float: left;
+}
+
+.menu .foot {
+    width: 100%;
+    text-align: center;
+    padding-top: 5px; 
+}
+
+.container {
+    background-color: #fff;
+    display: block;
+/*    flex-flow: row;*/
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+/*This is the codecademy styling*/
+body {
+    height: 100%;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Initial menu */
+.menu {
+    background: #333;
+    background: linear-gradient(45deg, #6690df 0%, #42e4ea 50%, #ffe4ea 100%);
+    border-right: 1px solid #eee;
+    left: -205px;  /* start off behind the scenes */
+    height: 100%;
+    position: fixed;
+    width: 205px;
+}
+
+/* Basic styling */
+.menu ul {
+  border-top: 1px solid #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #fff;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 40px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+/*This completes the codecademy styling*/
+
+p {
+    font-size: 22px;
+    padding: 0px 100px;
+    text-align: left;
+}
+
+.menu .foot a {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px 5px 10px 5px;
+}
+
+/* Make this website responsive! */
+@media (max-width: 320px){
+    p {
+        padding: 0px 15px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 375px){
+    p {
+        padding: 0px 17px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 414px){
+    p {
+        padding: 0px 15px;
+        font-size: 16px;
+    }
+}
+.btn-open {
+    min-height: 48px;
+    min-width: 48px;
+}
+
+.btn-close {
+    height: 21px;
+    min-height: 48px;
+    min-width: 48px;
+    margin-left: 75px;
+    margin-top: 15px;
+    width: 60px;
+}
+
+.btn {
+    border: 5px solid transparent; 
+    -moz-border-image: -moz-linear-gradient(top, #6690df 0%, #42e4ea 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #6690df 0%, #42e4ea 100%);
+    border-image: linear-gradient(to bottom right, #6690df 0%, #42e4ea 100%);
+    border-image-slice: 1;
+    padding: 10px;
+    width: 5%;
+}
+
+.itm {
+    border-top: 8px solid #eee;
+    border-right: 15px solid #eee;
+    border-bottom: 0px solid #eee;
+    border-left: 15px solid #eee;
+    border-radius: 15px;
+    width: 0%;
+    height: 0%;
+    margin: 10px 0px 10px 10px;
+}
+
+svg {
+    margin-left: -14px;
+    margin-top: -23px;
+}
+
+.menu-icon2 {
+    margin-left: -14px;
+    margin-top: -20px;
+}
+
+.menu-icon3 {
+    margin-left: -14px;
+    margin-top: -20px;
+    
+}
+
+.menu-icon1 {
+    margin-left: -14px;
+    margin-top: -22px;
+
+}
+
+.svg-circle {
+    margin-left: -16px;
+    margin-top: -16px;    
+}
+.svg-circle1 {
+    margin-left: -16px;
+    margin-top: -16px;    
+    
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    flex: 1;
+}
+
+.firstHalf {
+    width: 50%;
+/*    float: left;*/
+}
+
+.secondHalf {
+    width: 50%;
+    float: right;
+}
+
+
+
+.plus:hover {
+    cursor: pointer;
+}
+
+.minus:hover {
+    cursor: pointer;
+}
