@@ -1,6 +1,7 @@
 var main = function () {
     $('.plus').show();
     $('.minus').hide();
+    $('.foot').hide();
     
   /* Push the body and the nav over by 205px over */
     $('.plus').click(function () {
@@ -13,7 +14,7 @@ var main = function () {
         }, 200);
         $('.plus').hide();
         $('.minus').show();
-    
+        $('.foot').fadeIn(300);
     });
 
   /* Then push them back */
@@ -27,7 +28,7 @@ var main = function () {
         }, 200);
         $('.minus').hide();
         $('.plus').show();
-
+        $('.foot').fadeOut(300);
     });
     
     /* This is to test animating the circle resizing */
