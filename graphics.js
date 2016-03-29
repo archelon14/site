@@ -46,3 +46,13 @@ var main = function () {
 };
 
 $(document).ready(main);
+
+// This supposedly will make the mobile safari menu bar and stuff disappear
+// When ready...
+//window.addEventListener("load",function() {
+	// Set a timeout...
+//	setTimeout(function(){
+		// Hide the address bar!
+//		window.scrollTo(0, 1);
+//	}, 0);
+//});
